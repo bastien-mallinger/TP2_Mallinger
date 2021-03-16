@@ -34,12 +34,12 @@ public class System_hospitalier {
 	}
 	
 	private String analyserRequete(Requête requête) {
-		// Analyser la requête
+		// Analyser la requête et retourne le message de fin d'analyse.
 		return "requête analysée";
 	}
 	
 	private String comparerDonnes() {
-		// Comparaison des données
+		// Comparaison des données et retourne un message en cas de similarité entre des requêtes.
 		return "Cluster trouvé";
 	}
 
